@@ -1,0 +1,44 @@
+using System;
+
+namespace suggestion
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x; //decleration
+            x = 123; //initialisation
+
+            int y = 321; //decleration and initialisation
+
+            int z = x + y;
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+
+            int age = 16; //whole integer
+
+            Console.WriteLine("My age is " + age);
+
+            double height = 198.5; //decimal number
+
+            Console.WriteLine("My height is " + height + "cm");
+
+            bool alive = true;
+
+            Console.WriteLine("Are you alive?" + alive );
+
+            char currency = '$';
+
+            Console.WriteLine("America uses american dollars the symbol for this is " + currency);
+
+            String name = "Silviu";
+
+            Console.WriteLine("Hello, " + name);
+
+            Console.ReadKey();
+
+        }
+    }
+}
