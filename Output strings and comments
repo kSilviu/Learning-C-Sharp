@@ -1,0 +1,26 @@
+using System;
+
+namespace suggestion
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Hello!");
+            Console.WriteLine("World!");
+
+            // code above prints a string 
+            /* multi
+             * line
+             * comment*/
+
+            Console.WriteLine("\tSilviu");
+
+            //with different formats
+
+            Console.ReadKey();
+            
+            //hit a key to end code
+        }
+    }
+}
